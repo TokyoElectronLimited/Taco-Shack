@@ -1,6 +1,4 @@
 language: java
-script:
-  - ant all
 # blocklist
 branches:
   except:
@@ -13,5 +11,5 @@ branches:
   - master
 deploy:
   provider: heroku 
-  api_key: HEROKU API KEY HERE 
+  api_key: d33fdbe5-5fe6-48bd-9821-d5cd9ae4ba32 
   app: taco-shack
