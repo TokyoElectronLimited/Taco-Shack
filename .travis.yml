@@ -3,12 +3,12 @@ language: java
 branches:
   except:
   - development 
+  - master
 
 # safelist
 branches:
   only:
-  - stable
-  - master
+  - build 
 deploy:
   provider: heroku 
   api_key: d33fdbe5-5fe6-48bd-9821-d5cd9ae4ba32 
